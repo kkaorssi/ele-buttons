@@ -18,7 +18,7 @@
   - 성능 분석: Auto Labeling과 버튼 배치 추정 방법의 성능을 분석하여 학습 및 인식 정확도를 평가합니다.
  
 ## Performance
-Auto Label을 통해 모델의 F1 Score를 72.37%에서 약 97.82%로 향상시켰습니다.
+Auto Label을 통해 데이터셋을 50자에서 850장으로 증강시키고, 모델의 F1 Score를 72.37%에서 약 97.82%로 향상시켰습니다.
 
 ## License
 이 프로젝트는 Apache License 2.0에 따라 배포됩니다.
