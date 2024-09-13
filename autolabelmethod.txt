@@ -1,0 +1,35 @@
+데이터 전처리
+standardscaler
+
+이상치 제거
+z 스코어
+modified z 스코어
+IQR
+
+군집화
+1) 계층적 군집
+- Agglomerative
+- Divisive
+- Point Assignment
+2) Point Assignment Clustering
+- K-means
+- BFR
+- CURE
+- Mean-Shift
+- DBSCAN ## 채택, 이유: 개체 간의 거리를 근거로 하는 다른 군집화와 달리
+밀도를 기반으로 하기 때문에 덩어리보다는 선형을 갖는 버튼의 행렬을 분석하는데 적합
+- GMM을 사용한 EM
+
+주축 찾기
+PCA - 채택
+median
+선형회귀
+
+원근변환
+calibration
+pan tilt roll
+소실선과 소실점
+각크기와 아크탄젠트
+
+유사도 찾기
+total loss

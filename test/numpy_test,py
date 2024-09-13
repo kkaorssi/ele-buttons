@@ -1,0 +1,31 @@
+import numpy as np
+import pandas as pd
+
+# A = np.arange(6).reshape(2,3)
+A = np.array([[1, 5, 2], [4, 3, 6]])
+B = pd.DataFrame({'X': [1, 2, 3, 4, 5, 6, 7], 'Y': [4, np.nan, 6, 7, 8, 9, 5]})
+C = [1, 2, 3, 4]
+D = pd.DataFrame()
+
+D.loc[0,['X', 'Y']] = [1, 2]
+
+print(B)
+B = B.dropna()
+print(B)
+
+# print(D)
+
+# E = np.arange(3, 10, 1)
+
+# print(E)
+# print(B.loc[1, 'X'])
+
+# B.loc[3:7] = np.array(B.loc[3:7].sort_values(by='Y', ascending=True))
+# F = B['X']
+# print(E.compare(F))
+
+# B = B.sort_values(by='Y', ascending=True).reset_index(drop=True)
+
+# print(B)
+
+# print(C[len(C)-1:len(C)])
